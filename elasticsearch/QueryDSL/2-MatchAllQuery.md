@@ -18,7 +18,7 @@ GET /_search
 }
 ```
 ### Match None 查询
-这个 `match_all` 查询的反转, 它不匹配任何文档
+这个是 `match_all` 查询的反转, 它不匹配任何文档
 ```
 GET /_search
 {
