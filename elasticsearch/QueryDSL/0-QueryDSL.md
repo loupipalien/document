@@ -5,4 +5,7 @@ ElasticSearch 提供一个基于 JSON 定义查询的完整查询 DSL (领域特
 - 复合查询子句
 复合查询包装了其他叶子或复合查询, 可以被用于以逻辑谓词组合多个查询 (例如 [bool](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html) 或 [dis_max](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-dis-max-query.html) 查询), 或者更改它们的行为 (例如 [constant_sore](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-constant-score-query.html) 查询)
 
-查询子句的行为取决于它们是否被用于 [query context or filter context](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-filter-context.html). 
+查询子句的行为取决于它们是否被用于 [query context or filter context](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-filter-context.html).
+
+>**参考:**
+[Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)

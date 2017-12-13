@@ -13,3 +13,6 @@
 支持紧凑的 Lucene [query string syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax), 允许你指定 AND|OR|NOT 条件, 并且可以在单个查询语句中搜索多个域. 仅供专业用户使用
 - [simple_query_string](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html)
 更简单更健壮的 `query_string` 语法的版本, 适合直接暴露给用户
+
+>**参考:**
+[Full Text Queries](https://www.elastic.co/guide/en/elasticsearch/reference/current/full-text-queries.html)
