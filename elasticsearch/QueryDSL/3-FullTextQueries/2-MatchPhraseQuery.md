@@ -27,4 +27,4 @@ GET /_search
  ```
 
  >**参考:**
- [Match Phrase  Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query-phrase.html)
+ [Match Phrase Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query-phrase.html)
